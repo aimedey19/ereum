@@ -1,12 +1,8 @@
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro|Poppins:600, 700|Work+Sans:600&amp;display=swap';
-    * {
-    padding: 0;
-    margin: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400&display=swap');
 body {
     background-color: #fff;
-    font-family: source sans pro, sans-serif;
-    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
     line-height: 26px;
     color: #4d4f52;
     font-weight: 400;
@@ -35,7 +31,7 @@ body {
     color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
     -webkit-font-smoothing: antialiased;
     color: #263a4f;
 }
@@ -93,6 +89,7 @@ p {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 15px;
+    text-align:justify;
 }
 a, a:hover {
     text-decoration: none;
@@ -288,7 +285,7 @@ button {
 .default-btn {
     background-color: #e0202b;
     text-transform: uppercase;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #fff;
     font-size: 12px;
     border-radius: 2px;
@@ -315,7 +312,7 @@ button {
     color: #263a4f;
     font-weight: 600;
     letter-spacing: 0;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     position: relative;
     margin-bottom: 10px;
     z-index: 1;
@@ -440,7 +437,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 }
 .header-menu-wrap ul li>a {
     display: block;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -488,7 +485,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     margin: 0;
 }
 .header-menu-wrap li li>a {
-    font-family: source sans pro, sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     display: block;
     height: auto;
     line-height: inherit;
@@ -734,7 +731,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     font-weight: 600;
 }
 .service-item .read-more {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #263a4f;
     font-size: 12px;
     font-weight: 600;
@@ -791,7 +788,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 .service-content {
 }
 .service-content span {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -960,7 +957,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     text-decoration: underline;
 }
 .projects-content .category {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 12px;
@@ -1043,7 +1040,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     line-height: 40px;
 }
 .project-single-content .project-details span {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     color: #263a4f;
@@ -1077,7 +1074,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 .cta-content {
 }
 .cta-content span {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1103,7 +1100,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 .content-info {
 }
 .content-info span {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1142,7 +1139,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     text-align: center;
 }
 .counter-content .counter {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #e0202b;
     font-size: 48px;
     line-height: 1;
@@ -1152,7 +1149,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     margin: 0 0 10px;
 }
 .counter-content h4 {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     color: #fff;
     font-weight: 600;
@@ -1211,7 +1208,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     color: #fff;
     font-size: 10px;
     letter-spacing: 1px;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     padding: 5px 10px;
     background-color: #e0202b;
     box-shadow: 0 14px 70px -10px rgba(0, 0, 0, .15);
@@ -1309,7 +1306,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     display: block;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 .testi-item {
     background-color: #fff;
@@ -1487,7 +1484,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     position: absolute;
     width: auto;
     height: auto;
@@ -1517,7 +1514,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     color: #e0202b;
 }
 .blog-content .read-more {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #263a4f;
     font-size: 12px;
     font-weight: 600;
@@ -1718,7 +1715,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 }
 .single-post-meta li a {
     display: inline-block;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -1815,7 +1812,7 @@ blockquote span {
     color: #263a4f;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -1894,7 +1891,7 @@ blockquote span {
     letter-spacing: -1px;
 }
 .blog-single-wrap .comments-area .comments-meta h4 span {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 600;
     text-transform: none;
     display: inline-block;
@@ -1903,7 +1900,7 @@ blockquote span {
     margin-left: 5px;
 }
 .blog-single-wrap .comments-area .comment-reply-link {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 12px;
     font-weight: 600;
     color: #e0202b;
@@ -1963,7 +1960,7 @@ blockquote span {
     float: right;
 }
 .blog-single-wrap .comment-respond .form-submit input {
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     max-width: 180px;
     background-color: #e0202b;
     color: #fff;
@@ -2045,7 +2042,7 @@ blockquote span {
 }
 .subscribe-form .submit-btn {
     background-color: #e0202b;
-    font-family: work sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     color: #fff;
     font-size: 12px;
