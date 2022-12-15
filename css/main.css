@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koh Santepheap:wght@300;400;600&family=Poppins:wght@300;400&display=swap');
 body {
     background-color: #fff;
-    font-family: "Poppins", sans-serif;
+    font-family: "Koh Santepheap";
     font-size: 18px;
     line-height: 26px;
     color: #4d4f52;
@@ -31,7 +31,7 @@ body {
     color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Koh Santepheap";
     -webkit-font-smoothing: antialiased;
     color: #263a4f;
 }
@@ -2089,3 +2089,152 @@ blockquote span {
     color: #fff;
     opacity: .8;
 }
+
+
+
+/* CSS */
+/* Header */
+.slider-head .item {
+    height: 100vh;
+    position: relative;
+  }
+  .slider-head .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider-head .item .cover {
+    padding: 75px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+  }
+  .slider-head .item .cover .slider-head-content {
+    position: relative;
+    padding: 56px;
+    overflow: hidden;
+  }
+  .slider-head .item .cover .slider-head-content .line {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 9px solid #fff;
+    -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+    clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  }
+  .slider-head .item .cover .slider-head-content h2 {
+    font-weight: 300;
+    color: #fff;
+  }
+  .slider-head .item .cover .slider-head-content h1 {
+    font-weight: 600;
+    margin: 5px 0 20px;
+    word-spacing: 3px;
+    color: #fff;
+  }
+  .slider-head .item .cover .slider-head-content h4 {
+    font-weight: 300;
+    line-height: 36px;
+    color: #fff;
+  }
+  .slider-head .owl-item.active h1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  .slider-head .owl-item.active h2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  .slider-head .owl-item.active h4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.3s;
+  }
+  .slider-head .owl-item.active .line {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    animation-delay: 0.3s;
+  }
+  .slider-head .owl-nav .owl-prev {
+    position: absolute;
+    left: 15px;
+    top: 43%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    background: rgba(0, 0, 0, 0.5) !important;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 0;
+  }
+  .slider-head .owl-nav .owl-prev span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  .slider-head .owl-nav .owl-prev:focus {
+    outline: 0;
+  }
+  .slider-head .owl-nav .owl-prev:hover {
+    background: #000 !important;
+  }
+  .slider-head .owl-nav .owl-next {
+    position: absolute;
+    right: 15px;
+    top: 43%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    background: rgba(0, 0, 0, 0.5) !important;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 0;
+  }
+  .slider-head .owl-nav .owl-next span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  .slider-head .owl-nav .owl-next:focus {
+    outline: 0;
+  }
+  .slider-head .owl-nav .owl-next:hover {
+    background: #000 !important;
+  }
+  .slider-head:hover .owl-prev {
+    left: 0px;
+    opacity: 1;
+  }
+  .slider-head:hover .owl-next {
+    right: 0px;
+    opacity: 1;
+  }
