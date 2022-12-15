@@ -429,6 +429,8 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
 .header-menu-wrap ul {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 35000px;
     list-style: none;
 }
 .header-menu-wrap ul li {
