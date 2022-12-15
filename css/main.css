@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Koh Santepheap:wght@300;400;600&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto Slab:wght@300;400;600&family=Poppins:wght@300;400&display=swap');
 body {
     background-color: #fff;
-    font-family: "Koh Santepheap";
+    font-family: "Roboto Slab";
     font-size: 18px;
     line-height: 26px;
     color: #4d4f52;
@@ -31,7 +31,7 @@ body {
     color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Koh Santepheap";
+    font-family: "Roboto Slab";
     -webkit-font-smoothing: antialiased;
     color: #263a4f;
 }
