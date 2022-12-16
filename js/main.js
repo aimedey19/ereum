@@ -30,9 +30,10 @@
             $('.sticky-header .header-menu-wrap').slideToggle(300);
         });
         $('.header-menu-wrap .dl-menu li a').on("click", function () {
-            $(this).toggleClass('menu-open');
-            $('.sticky-header .header-menu-wrap').slideToggle(300);
-            $('.burger-menu').removeClass('menu-open')
+            let menuopens= document.getElementsByClassName("menu-open");
+            for(let i=0; i<menuopens.length; i++){
+                menuopens[i].click();
+            }
         });
         
     }
