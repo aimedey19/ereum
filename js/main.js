@@ -29,6 +29,12 @@
             $(this).toggleClass('menu-open');
             $('.sticky-header .header-menu-wrap').slideToggle(300);
         });
+        $('.header-menu-wrap .dl-menu li a').on("click", function () {
+            $(this).toggleClass('menu-open');
+            $('.sticky-header .header-menu-wrap').slideToggle(300);
+            $('.burger-menu').removeClass('menu-open')
+        });
+        
     }
 
     $('.header-menu-wrap ul li:has(ul)').each(function () {
@@ -40,6 +46,7 @@
         $(this).prev('ul').slideToggle(300);
         $(this).toggleClass('dropdown-open');
     });
+    
     $('.header-menu-wrap .dropdown_menu a').append('<span></span>');
 
     // Responsive Classes
