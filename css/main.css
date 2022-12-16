@@ -550,8 +550,9 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     display: none;
     background-color: #fff;
     width: 100%;
-    height: auto;
+    height: 2000px;
     padding: 0 20px;
+    margin-top: 10px;
     position: absolute;
     left: 0;
     top: 50px;
