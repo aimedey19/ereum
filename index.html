@@ -65,18 +65,57 @@
     <div class="site-preloader-wrap">
         <div class="spinner"></div>
     </div>
-
+    
     <header class="header">
+        <nav class=" container navbar navbar-expand-lg navbar-light bg-light" style="background-color: #fff !important;">
+            <a class="navbar-brand header-logo" href="#"><img src="img/ereum.jpeg" alt="Ereum"  style="max-width: 100px;"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:none;">
+                <div class="burger-menu">
+                    <div class="line-menu line-half first-line"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu line-half last-line"></div>
+                </div>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
         <div class="primary-header">
-            <div class="container">
-                <div class="primary-header-inner">
-                    <div class="header-logo">
+            <div class="">
+                <div class="primary-header-inner" >
+                    <div class="header-logo" style="margin-left: 4% ;">
                         <a href="#"><img src="img/ereum.jpeg" alt="Ereum" /></a>
                     </div>
                     <div class="header-menu-wrap">
                         <ul class="dl-menu">
                             <li>
-                                <a href="index.html">Accueil</a>
+                                <a href="#index">Accueil</a>
                             </li>
                             <li>
                                 <a href="#our_services">Services</a>
@@ -87,10 +126,10 @@
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="header-right">
+                    <div class="header-right" style="margin-right:4%;">
                         <a class="menu-btn" href="#">Devis</a>
                         <div class="mobile-menu-icon">
-                            <div class="burger-menu">
+                            <div id="burger-icon" class="burger-menu">
                                 <div class="line-menu line-half first-line"></div>
                                 <div class="line-menu"></div>
                                 <div class="line-menu line-half last-line"></div>
@@ -101,7 +140,7 @@
             </div>
         </div>
     </header>
-    <div class="slider-head">
+    <div class="slider-head" id="index">
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <img src="https://res.cloudinary.com/dfng74ru6/image/upload/v1671094817/building-new-concrete-houses_xyqot0.jpg" alt="" />
@@ -706,7 +745,7 @@
                         <!-- <p>Building your own home is about desire, fantasy. But it’s achievable anyone can do it.</p> -->
                     </div>
                 </div>
-                <div class="col-lg-4 d-flex justify-content-center col-sm-6 sm-padding">
+                <div class="col-lg-4 d-flex col-sm-6 sm-padding">
                     <div class="widget-content">
                         <h4>Contact</h4>
                         <ul class="widget-links">
@@ -715,7 +754,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-5 col-sm-6 d-flex justify-content-center sm-padding">
+            <div class="col-lg-5 col-sm-6 d-flexr sm-padding">
                     <div class="widget-content">
                         <h4>Siège</h4>
                         <ul class="widget-links">
